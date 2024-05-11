@@ -1,0 +1,21 @@
+/* content start  */
+.content{
+    font-size: 12px;
+}
+.cont-items{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+.cont-items li{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+/* content end */
+

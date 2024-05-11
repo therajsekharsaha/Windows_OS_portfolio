@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: url("https://getwallpapers.com/wallpaper/full/6/1/6/1467268-best-wallpaper-windows-10-3840x2160-ipad-retina.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}

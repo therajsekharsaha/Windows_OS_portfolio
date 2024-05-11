@@ -1,0 +1,65 @@
+/* navbar start */
+.navbar{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    bottom: 0;
+    /* background-image: linear-gradient(to right,rgb(238, 238, 238),rgb(241, 241, 241)); */
+    background-color: rgb(0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.781) 0px 5px 15px;
+    /* backdrop-filter: blur(1000px); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.win-logo{
+    padding: 15px;
+    cursor: pointer;
+}
+.nav-items,i{
+    color: white;
+}
+.search{
+    width: 25vw;
+    padding: 13px;
+    font-size: 15px;
+}
+ul{
+    cursor: pointer;
+    /* padding-right: 20px; */
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.nav-items-sub li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    padding-right: 12px;
+    padding-top: 15px;
+
+}
+.play{
+    padding-top: 5px;
+    font-size: 15px;
+}
+.battery{
+
+}
+.volume{}
+
+.time{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.line{
+    font-weight: 10px;
+    font-size: 25px;
+    position: absolute;
+    right: 0;
+}
+
+/* navbar end */
